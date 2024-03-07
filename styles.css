@@ -2559,3 +2559,35 @@ h1 {
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
   }
+
+  .jdg-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .jdg-links-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .jdg-links-inner-container {
+    display: flex;
+    gap: 2px;
+  }
+
+  .jdg-nav button  {
+    background-color: rgb(71, 71, 182);
+    border: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 399ms;
+  }
+
+  .jdg-nav button:hover {
+    background-color: rgb(232, 222, 26);
+    color: black;
+  }
