@@ -178,7 +178,7 @@ h1 {
     top: 0;
     width: 100%;
     height: 90px;
-    background-color: rgba(0, 255, 255, 1);
+    background-color: rgba(47, 81, 233, 1);
     z-index: 1000; 
   }
   .navigation-container {
