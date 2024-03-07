@@ -1819,7 +1819,7 @@ h1 {
     border-width: 1px;
     border-color: #000 #000 #e6e6e6;
     font-family: 'IBM Plex Mono', sans-serif;
-    color: #b3b3b3;
+    color: #000000;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -2529,4 +2529,18 @@ h1 {
     .contact-intro {
       padding-bottom: 80px;
     }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 33.3333333%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
   }
