@@ -2651,6 +2651,7 @@ figcaption {
   right: 0;
   padding: 10px;
   border-bottom-left-radius: 10px;
+  transform: translateX(500px);
   transition: 400ms;
 }
 

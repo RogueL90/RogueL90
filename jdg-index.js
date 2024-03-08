@@ -27,11 +27,11 @@ const linksContainer = document.querySelector(".jdg-links-container");
 const menuBtn = document.querySelector(".jdg-nav-menu-btn");
 const body = document.querySelector("body");
 const closeCatcher = document.querySelector(".jdg-close-catcher");
+const sideNavLinks = document.querySelectorAll(".jdg-side-nav-link");
 
 let screenWidth = window.innerWidth;
 
 sideNav.style = `transform: translateX(${sideNavWidth}px);`;
-closeCatcher.style = "display: none;";
 
 if (screenWidth <= 750) {
   linksContainer.style = "display: none;";
@@ -56,7 +56,13 @@ menuBtn.addEventListener("click", () => {
 });
 
 closeCatcher.addEventListener("click", () => {
-  console.log("alkjfalsjfal;kfdja");
   sideNav.style = `transform: translateX(${sideNavWidth}px);`;
   closeCatcher.style = "display: none;";
 });
+
+for (item of sideNavLinks) {
+  item.addEventListener("click", () => {
+    sideNav.style = `transform: translateX(${sideNavWidth}px);`;
+    closeCatcher.style = "display: none;";
+  });
+}
