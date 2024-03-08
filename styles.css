@@ -215,7 +215,8 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("blur-darken.png");
+  background-image: url("darkest-hills-bg.png");
+  /* background-image: url("blur-darken.png"); */
   /* background-image: url("mhs.jpg"); */
   background-position: 50% 50%;
   background-size: cover;
@@ -2615,6 +2616,7 @@ figcaption {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 100;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .jdg-team-container {
@@ -2649,6 +2651,7 @@ figcaption {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 100;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   right: 0;
   padding: 10px;
   border-bottom-left-radius: 10px;
@@ -2667,8 +2670,4 @@ figcaption {
   height: 100vh;
   z-index: 99;
   position: fixed;
-}
-
-.jdg-reg-button {
-  z-index: 100;
 }
