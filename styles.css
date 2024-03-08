@@ -710,10 +710,10 @@ figcaption {
   align-items: center;
   background-color: #fafafa;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .sponsorship-logos {
-  margin-top: 20px;
   display: flex;
 }
 
