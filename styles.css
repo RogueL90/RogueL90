@@ -1928,15 +1928,19 @@ figcaption {
 
 .nav-link {
   font-family: "Libre Franklin", sans-serif;
-  color: #000000;
+  color: #ffffff;
   font-size: 20x;
   line-height: 24px;
   font-weight: 600;
   padding: 10px;
 }
 
+.nav-link:hover {
+  color: #7cb2f0;
+}
+
 .nav-link.w--current {
-  color: #fff;
+  color: #7cb2f0;
 }
 
 .latest-posts {
@@ -2562,7 +2566,8 @@ figcaption {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 100;
 }
 
 .jdg-links-container {
@@ -2577,7 +2582,7 @@ figcaption {
 }
 
 .jdg-nav button {
-  background-color: rgb(71, 71, 182);
+  background-color: #2569b6;
   border: black;
   color: white;
   padding: 10px;
@@ -2587,5 +2592,5 @@ figcaption {
 
 .jdg-nav button:hover {
   background-color: rgb(232, 222, 26);
-  color: black;
+  color: #2569b6;
 }
