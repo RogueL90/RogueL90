@@ -2429,12 +2429,12 @@ figcaption {
   .navigation-container {
     height: 60px;
   }
-  .header {
+  /* .header {
     height: 100vh;
     margin-top: -60px;
     padding-top: 120px;
     padding-bottom: 60px;
-  }
+  } */
   .h1 {
     font-size: 30px;
     line-height: 42px;
