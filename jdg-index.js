@@ -68,11 +68,13 @@ menuBtn.addEventListener("click", () => {
 closeCatcher.addEventListener("click", () => {
   sideNav.style = `transform: translateX(${sideNavWidth}px);`;
   closeCatcher.style = "display: none;";
+  sideNavStatus = false;
 });
 
 for (item of sideNavLinks) {
   item.addEventListener("click", () => {
     sideNav.style = `transform: translateX(${sideNavWidth}px);`;
+    sideNavStatus = false;
     closeCatcher.style = "display: none;";
   });
 }
