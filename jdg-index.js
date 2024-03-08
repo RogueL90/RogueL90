@@ -25,13 +25,17 @@ const sideNav = document.querySelector(".jdg-side-nav");
 const sideNavWidth = sideNav.offsetWidth;
 const linksContainer = document.querySelector(".jdg-links-container");
 const menuBtn = document.querySelector(".jdg-nav-menu-btn");
+let sideNavStatus = false;
 const body = document.querySelector("body");
 const closeCatcher = document.querySelector(".jdg-close-catcher");
 const sideNavLinks = document.querySelectorAll(".jdg-side-nav-link");
+const nav = document.querySelector(".jdg-nav-outer");
+const navHeight = nav.offsetHeight;
+console.log(navHeight);
 
 let screenWidth = window.innerWidth;
 
-sideNav.style = `transform: translateX(${sideNavWidth}px);`;
+sideNav.style = `transform: translateX(${sideNavWidth}px); transform: translateY(-${navHeight})`;
 
 if (screenWidth <= 750) {
   linksContainer.style = "display: none;";
@@ -51,8 +55,14 @@ window.addEventListener("resize", () => {
 });
 
 menuBtn.addEventListener("click", () => {
-  sideNav.style = `transform: translateX(0px);`;
-  closeCatcher.style = "";
+  if(sideNavStatus) {
+    sideNav.style = `transform: translateX(${sideNavWidth});`;
+    closeCatcher.style = "display: none;";
+  } else {
+    sideNav.style = `transform: translateX(0px);`;
+    closeCatcher.style = "";
+  }
+  sideNavStatus = !sideNavStatus;
 });
 
 closeCatcher.addEventListener("click", () => {

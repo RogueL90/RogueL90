@@ -215,7 +215,8 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("mhs.jpg");
+  background-image: url("blur-darken.png");
+  /* background-image: url("mhs.jpg"); */
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2652,6 +2653,7 @@ figcaption {
   padding: 10px;
   border-bottom-left-radius: 10px;
   transform: translateX(500px);
+  top: 75px;
   transition: 400ms;
 }
 
@@ -2665,4 +2667,8 @@ figcaption {
   height: 100vh;
   z-index: 99;
   position: fixed;
+}
+
+.jdg-reg-button {
+  z-index: 100;
 }
