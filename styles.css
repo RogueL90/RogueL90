@@ -670,14 +670,14 @@ figcaption {
   color: #48944f;
 }
 
-.home-class-container{
+.home-class-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
 
-.home-tracks-item-1{
+.home-tracks-item-1 {
   display: flex;
   width: 50%;
   align-items: center;
@@ -2690,4 +2690,33 @@ figcaption {
   height: 100vh;
   z-index: 99;
   position: fixed;
+}
+
+.jdg-track-container {
+  padding: 15px;
+}
+
+.jdg-track-item {
+  background-color: rgb(47, 87, 172);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  /* background-color: white; */
+  box-shadow: 0 0 50px rgb(47, 87, 172);
+  border-radius: 15px;
+}
+
+.jdg-track-item h1 {
+  color: rgb(240, 216, 91);
+}
+
+.jdg-track-item h2 {
+  text-align: center;
+  color: rgb(183, 200, 238);
+  font-size: 15px;
+}
+
+.jdg-track-title {
+  margin-bottom: 30px;
 }
