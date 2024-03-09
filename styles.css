@@ -2628,6 +2628,10 @@ figcaption {
   border-radius: 20px;
 }
 
+.jdg-nav button:active {
+  background-color: rgb(196, 187, 22);
+}
+
 .jdg-nav-outer {
   width: 100%;
   position: fixed;
@@ -2637,6 +2641,21 @@ figcaption {
   z-index: 100;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+}
+
+@media (any-pointer: coarse) {
+  .jdg-nav button:hover {
+    background-color: #2569b6;
+    border: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 399ms;
+  }
+
+  .jdg-nav button:active {
+    background-color: #10447e;
+  }
 }
 
 .jdg-team-container {
@@ -2675,7 +2694,7 @@ figcaption {
   right: 0;
   padding: 10px;
   border-bottom-left-radius: 10px;
-  transform: translateX(500px);
+  transform: translateY(-500px);
   top: 75px;
   transition: 400ms;
 }
@@ -2724,4 +2743,10 @@ figcaption {
 
 img {
   object-fit: contain;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
 }
