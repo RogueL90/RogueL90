@@ -1,0 +1,15 @@
+.back button{
+    background-color: #2569b6;
+    border: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 399ms;
+    font-family: DM Sans;
+    color: yellow;
+}
+.back button:hover {
+    background-color: yellow;
+    color: #2569b6;
+    border: black;
+    cursor: pointer;
+}
