@@ -1963,7 +1963,7 @@ figcaption {
   color: #ffffff;
   font-size: 20x;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: 400;
   padding: 10px;
   transition: 400ms;
 }
@@ -2669,7 +2669,7 @@ figcaption {
 .jdg-side-nav {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 100;
+  z-index: 99;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   right: 0;
@@ -2688,7 +2688,7 @@ figcaption {
 .jdg-close-catcher {
   width: 100vw;
   height: 100vh;
-  z-index: 99;
+  z-index: 98;
   position: fixed;
 }
 
@@ -2715,6 +2715,7 @@ figcaption {
   text-align: center;
   color: rgb(183, 200, 238);
   font-size: 15px;
+  font-weight: 400;
 }
 
 .jdg-track-title {
