@@ -1,7 +1,17 @@
 {
+  "homepage": "https://roguel90.github.io/RogueL90",
   "dependencies": {
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.8",
     "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+   "predeploy": "npm run ",
+   "deploy": "gh-pages -d build",
+   "start": "react-scripts start",
+   "build": "react-scripts build"
   }
 }
