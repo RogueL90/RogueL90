@@ -18,7 +18,7 @@ const TeamCards = () => {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              CEO
+              Lead
             </CardItem>
             <div className="">
               <CardItem
@@ -44,7 +44,7 @@ const TeamCards = () => {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              CEO
+              Lead
             </CardItem>
             <div className="">
               <CardItem
@@ -70,14 +70,14 @@ const TeamCards = () => {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              CTO
+              Tech Lead and Operations
             </CardItem>
             <div className="">
               <CardItem
                 translateZ={20}
                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                <img src="circle logo.png" width="175" height="175" />
+                <img src="vasista.png" width="175" height="175" />
               </CardItem>
             </div>
           </CardBody>
