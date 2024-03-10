@@ -2662,15 +2662,17 @@ figcaption {
 .jdg-team-container {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1100px;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 800px) {
   .jdg-team-container {
     flex-direction: column;
     align-items: center;
+    gap: 50px;
   }
 }
 
@@ -2678,7 +2680,18 @@ figcaption {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 360px;
+  width: 340px;
+}
+
+.jdg-team-item p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.jdg-team-member-name {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .jdg-team-container-outer {
@@ -2714,6 +2727,7 @@ figcaption {
 
 .jdg-track-container {
   padding: 15px;
+  margin-bottom: 100px;
 }
 
 .jdg-track-item {
