@@ -567,7 +567,8 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 360px;
+  margin-top: 30px;
+  padding-top: 100px;
   padding-right: 30px;
   padding-left: 30px;
   -webkit-box-orient: horizontal;
@@ -2053,7 +2054,7 @@ figcaption {
     align-items: stretch;
   }
   .slider-section {
-    margin-top: 240px;
+    /* margin-top: 240px; */
   }
   .slider {
     height: 480px;
@@ -2275,7 +2276,7 @@ figcaption {
     flex-direction: column;
   }
   .slider-section {
-    margin-top: 150px;
+    /* margin-top: 150px; */
   }
   .slider {
     height: 300px;
@@ -2466,7 +2467,7 @@ figcaption {
     line-height: 30px;
   }
   .slider-section {
-    margin-top: 75px;
+    /* margin-top: 75px; */
   }
   .slider {
     height: 150px;
@@ -2749,4 +2750,37 @@ button,
 button:active,
 button:focus {
   outline: none;
+}
+
+.jdg-about-container {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .jdg-about-container {
+    flex-direction: column;
+  }
+}
+
+.jdg-about-container-outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.jdg-about-item img {
+  width: 75px;
+}
+
+.jdg-about-item {
+  box-shadow: 0 0 10px rgb(236, 236, 236);
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
 }
